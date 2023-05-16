@@ -4,7 +4,7 @@
     <h1>Hello Everyone :3 👋 and Welcome to my GitHub</h1>
     <h2>Here you can find my code I'm working in </h2>
     <h3>Yep looks quite empty but dont desesperate I will be uploading all my content very soon</h3>
-    <h3> Portfolio link here: https://ricki-cpu.github.io/# <a href="https://ricki-cpu.github.io/">ricki-cpu.github.io</a></h3>
+    <h3> Portfolio link here:<a href="https://ricki-cpu.github.io/">ricki-cpu.github.io</a></h3>
     <main>
         <p>
             🔭 I’m currently working on AI projects with Python and a personal blog<br>
