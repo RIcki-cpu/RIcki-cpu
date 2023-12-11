@@ -1,301 +1,366 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-
-     <title>Richard Montalvo</title>
-
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="Tooplate">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
-
-     <!--EMOJI-->
-     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-<!--
-Tooplate 2120 Ben Resume
-https://www.tooplate.com/view/2120-ben-resume
--->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Ingeniero en Software</title>
 </head>
 
-<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/RM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#education" onclick="seleccionar(this)">EDUCACIÓN</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
 
-    <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-
-            <a class="navbar-brand" href="#">
-                Richard Montalvo
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link smoothScroll">About Me</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#work" class="nav-link smoothScroll">Personal Work</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#education" class="nav-link smoothScroll">Education</a>
-                  </li>
-
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
-                    </li>
-                </ul>
-
-                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                    <a href="https://1drv.ms/f/s!Aj6yrSJ2ti8dg7UBXop3a8KvDBoubA" class="custom-btn btn" download>Download CV</a>
-                </div>
-            </div>
-
-        </div>
-    </nav>
-
-
-    <!-- HERO -->
-    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
-
-         <div class="container">
-            <div class="row">
-
-                  <div class="mx-auto col-lg-5 col-md-5 col-10">
-                      <img src="images/giphy.gif" class="img-fluid" alt="Funny gif abot programmers">
-                  </div>
-
-                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                        <div class="hero-text">
-
-                            <h1 class="hero-title">👋 -I develop solutions with code and AI</h1>
-
-                            <a href="mailto:richardmontalvo074@gmail.com" class="email-link">
-                                richardmontalvo074@gmail.com
-                            </a>
-                          
-                        </div>
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
                     </div>
 
+
+                    <div class="redes">
+                        <a href="https://twitter.com/Richard17876541?t=CGcYmv08WLOpG9_ZZ0MjKg&s=09" rel="noopener" class="fab fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/richillmontalvo" rel="noopener" class="fab fa-linkedin"></a>
+                        <a href="https://github.com/RIcki-cpu" rel="noopener" class="fab fa-github"></a>
+                        <a href="https://medium.com/@richardmontalvo074" rel="noopener" class="fab fa-medium"></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Richard Montalvo</span>, Ingeniero en TI y Desarrollador</h2>
+                <p class="descripcion">Me facina el mundo de la tecnologia y la Inteligencia Artificial</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Saludos, Soy <span>Richard Montalvo</span> </h2>
+            <h3>AI Enthusiast </h3>
+            <p> Ecuatoriano de nacimiento y nerd de profesión. Me encanta el desarrollo de software y trabajar con tecnologias de vanguardia como la Computación en la Nube e Inteligencia Artificial. Uno de mis hobbies favoritos es la lectura y escritura. Mi lema es nunca dejar de aprender y siempre dar tu mejor esfuerzo. Adicionalmente me encanta los viajes, la musica tropical y conocer gente de todas las partes del mundo</p>
+            <p>Enterate de más descargando mi CV</p>
+            <a href="https://1drv.ms/f/s!Aj6yrSJ2ti8dg7UBXop3a8KvDBoubA">Descargar CV</a><br><br>
+            <p>Tambien tienes mis redes sociales</p>
+            <a href="https://twitter.com/Richard17876541?t=CGcYmv08WLOpG9_ZZ0MjKg&s=09" rel="noopener" class="fab fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/richillmontalvo" rel="noopener" class="fab fa-linkedin"></a>
+            <a href="https://github.com/RIcki-cpu" rel="noopener" class="fab fa-github"></a>
+            <a href="https://medium.com/@richardmontalvo074" rel="noopener" class="fab fa-medium"></a>
+        </div>
+    </section>
+
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Programación y Desarrollo</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Tecnologias de la Información(SQL y Networking)</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Escritura </p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">              
+                <div class="overlay"></div>
+                <img src="img/proyects/ecumarket1.png" alt="">
+                <button type="button" class="info" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                    <h4>Mi primer sitio web: <strong>EcuaMarket</strong></h4>
+                    <p>Sitio Web demo escrito con HTML, CSS Y JS</p>
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="project1ModalLabel">EcuaMarket</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Feautures: </h4>
+                        <ul>
+                            <li>Games shop store</li>
+                            <li>Shopping Kart with JS </li>
+                            <li>Basic Web Design and Navigation - No template</li>
+                            <li>Basic Form to Account Creation</li>
+                            <li>Go to my website in Neocities : <a rel="nofollow" href="https://richixd2000.neocities.org/proyecto/html/landing%201.0" target="_parent">Here!</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyects/fealegria.png" alt="">
+                <button type="button" class="info" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                    <h4>Projecto Final de Disertación desarrollado para Android</h4>
+                    <p>Fe y Alegria: App</p>
+                </button>
+                <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="project2ModalLabel">Fe y Alegria: Aplicativo Movil</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Features: </h4>
+                        <p>Desarrollar un prototipo de aplicación móvil Android como proyecto de graduación de la carrera de ingeniería en TI (Tecnologías de la Información). Aquí se puede leer el objetivo principal extraído del escrito “Desarrollar una aplicación móvil que permita publicitar y controlar los procesos de registro de productos, de manera fácil e interactiva para el usuario, solucionando la falta de visibilidad de los microempresarios en comunidades remotas.</p>
+                        <ul>
+                            <li>Created with Flutter and Firestore NoSQL Database</li>
+                            <li>GetX as the default flow control state</li>
+                            <li>Gitlab Repository</li>
+                            <li>Software Development Methodology: Scrum</li>
+                            <li>Canvan board Implementation</li>
+                            <li>Use cases: Diagram and Documentation</li>
+                            <li>Firebase Authentication </li>
+                            <li>Official repository of the written document: <a rel="nofollow" href="http://repositorio.puce.edu.ec/handle/22000/21148" target="_parent">Aplicativo móvil para promocionar productos artesanales caso de estudio “Tejiendo Mi Faja, Bordando Mi Blusa” de fundación Fe y Alegría (puce.edu.ec)</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyects/helpmed.png" alt="">
+                <button type="button" class="info" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                    <h4>Prototipo Ficha Médica</h4>
+                    <p>HelpMed</p>
+                </button>
+                <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="project3ModalLabel">Fe y Alegria: Aplicativo Movil</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Features: </h4>
+                        <p> Desarrollar un prototipo de una aplicación móvil para Android respetando los principios de UX y la metodología de prototipos. La aplicación maneja todos los datos de los usuarios sobre salud, condición médica y otros. El objetivo era realizar una historia clínica para ayudar a los pacientes a autoregistrar sus datos.</p>
+                        <ul>
+                            <li>Sign Up and Log In Screens</li>
+                            <li>Firebase Firestore NoSQL Database as backend</li>
+                            <li>Flutter development with no flow control state</li>
+                            <li>User Data register, with multiple profiles with each user</li>
+                            <li>Complete CRUD with Medicaments and Profiles</li>
+                            <li>GitHub link repository: <a rel="nofollow" href="https://github.com/RIcki-cpu/help-med-repo/blob/master/README.md" target="_parent">Here!</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyects/advicegpt.png" alt="">
+                <button type="button" class="info" data-bs-toggle="modal" data-bs-target="#project4Modal">
+                    <h4>Aplicación Web desarrollado con Flask y IA</h4>
+                    <p>AdviceGPT</p>
+                </button>
+                <div class="modal fade" id="project4Modal" tabindex="-1" aria-labelledby="project4ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="project4ModalLabel">Fe y Alegria: Aplicativo Movil</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Features: </h4>
+                        <p>Aplicación Web desarrollada con Flask, Langchain, MySQL y Docker como Proyecto Final para el CS50x de Harvard</p>
+                        <ul>
+                            <li>El objetivo era implementar una aplicación web que analiza el sentimiento dado y da una respuesta personificando a un personaje. El propósito es emular lo mejor posible al personaje con las indicaciones dadas. </li>
+                            <li>Mida la cantidad de tokens utilizados en cada mensaje, calcule el nivel de bienestar y prediga emociones con fines de seguimiento y registro.</li>
+                            <li>GitHub link repository: <a rel="nofollow" href="https://github.com/RIcki-cpu/cs50-finalproject" target="_parent">Here!</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+                <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyects/cacpepas_app.png" alt="">
+                <button type="button" class="info" data-bs-toggle="modal" data-bs-target="#project4Modal">
+                    <h4>Aplicación de Usuario Reseteo/ Activación Financial </h4>
+                    <p>CacpePas App</p>
+                </button>
+                <div class="modal fade" id="project4Modal" tabindex="-1" aria-labelledby="project4ModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="project4ModalLabel">Aplicación de Usuario Reseteo/ Activación Financial</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Features: </h4>
+                        <p>Este proyecto esta desarrollado en flutter un SDK para el departamento de TI de la cooperativa de ahorro y credito Pastaza. Utiliza el lenguaje Dart que esta basado en Java</p>
+                        <ul>
+                            <li>Firebase Firestore NoSQL Database as backend</li>
+                            <li>Flutter development with no flow control state</li>
+                            <li>Arquitectura limpia</li>
+                            <li>Autenticación, compilación de IOS y Android, solicitudes HTTP y más...</li>
+                            <li>GitHub link repository: <a rel="nofollow" href="https://github.com/RIcki-cpu/flutter_aplicacion_cacpepas" target="_parent">Here!</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>
 
 
-    <section class="about section-padding" id="about">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 col-12">
-                    <h3 class="mb-4"><strong>About me </strong><i class="em em-nerd_face" aria-role="presentation" aria-label="NERD FACE"></i></h3>
-
-                    <p>Hello My name is Richard Montalvo and I like to create things with code. I’ve got studies in Information Technology at University. However, I soon realized I enjoy far more software development and think solutions with technology. You can always expect something new and mysterious while working with me. Let's make the world a bit better.</p>
-
-                    <p>I recently started to write the things I’ve always wanted to talk about in my <a rel="nofollow" href="https://www.richillmontalvo.com" target="_parent">blog</a>. Alternatively, You can check out <a rel="nofollow" href="https://medium.com/@richardmontalvo074" target="_parent">Medium</a> for my technical writings in English. Content Creation is Amazing. Nevertheless, my main focus is developing real-world projects, gaining experience, being part of a team and advancing my career as Software Engineer to fulfil my dreams. Finally, I strongly believe changing the world starts with oneself. Inside every one of us, within our minds resides real treasure, the real transforming power</p>
-                    <p>Technologies I been working recently:</p>
-
-                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
-                        <li> Flutter for Android Development <img class ="logos" src="images/logos/flutter.png" alt="flutter logo"></li>
-
-                        <li>Prompt Engineering and AI with Python<img class ="logos" src="images/logos/openai.png" alt="openai logo"></li>
-
-                        <li>Wordpress and SEO Tools for my blog Creation<img class ="logos" src="images/logos/wordpress.png" alt="wordpress logo"></li>
-
-                        <li>HTML,CSS and GitHub for this porfolio<img class ="logos" src="images/logos/html5.png" alt="html logo"></li>
-                    </ul>
+    <!-- SECCION EDUCACIÓN-->
+    <section id="servicios">
+        <h3 class="titulo-seccion">EDUCACIÓN Y CERTIFICACIONES</h3>
+        <div class="fila">
+            <div class="servicio">
+                <img class ="logos" src="img/logos/puce.png" alt="puce logo">
+                <h4>INGENIERIA EN TI</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Bases de Datos</li>
+                    <li>Redes Informaticas</li>
+                    <li>S.0 e Infraestructura IT</li>
+                </ul>
+                <p>Becado al 100% y Nota de graduación 92/100</p>
+            </div>
+            <div class="servicio">
+                <img class ="logos" src="img/logos/educationfirst.jpeg" alt="EF logo">
+                <h4>English EF Test</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>C1 English Level</li>
+                </ul>
+                <p>Ingles Certificado por EF</p>
+            </div>
+            <div class="servicio">
+                <img class ="logos" src="img/logos/cs50.jpeg" alt="harvard logo"></li>
+                <h4>CS50 Introducción a las Ciencias de la Computación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Programación en C </li>
+                    <li>Estructuras de Datos</li>
+                    <li>Desarrollo Web en Python con Flask</li>
+                </ul>
+                <p>Programación a bajo nivel, Gestión de Memoria y Algoritmos</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <img class ="logos" src="img/logos/ccnna.png" alt="ccnna logo"></li>
+                <h4>CCNNA</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>LAN, WAN, VPN, IPv4 e IPv6</li>
+                    <li>Routing fundamentals, OSPF y direccionamiento IP</li>
+                    <li>Configurationes como DHCP, NAT and NTP</li>
+                </ul>
+                <p>Cisco Certified Networking Associate</p>
+            </div>       
+        </div>
+    </section>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/richardmontalvo074@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="name" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="subject" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="msg" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
                 </div>
 
-                <div class="col-lg-5 mx-auto col-md-6 col-12">
-                    <img src="images/richi_photo.png" class="about-image img-fluid" alt="Richard AI Recreation">
-                    <p>Stable Difussion. AI representation of Richard Montalvo</p>
-                </div>
-
-
-    </section>
-
-    <!-- Personal Work -->
-     <section class="personal-work section-padding" id="work">
-          <div class="container">
-            <h3><strong>Personal Work </strong><i class="em em-male-technologist" aria-role="presentation" aria-label=""></i></h3><br>
-               <div class = "row">                
-                <div class="col-lg-6 col-md-6 col-12">
-                  <h3 class="mb-4">Graduation Proyect: Marketing mobile App</h3>
-
-                  <p> Develop a prototype of an Android application mobile app as a graduation project for an engineering degree in IT(Information Technology). Here you can read the main objective extracted from the writing "Develop a mobile application that allows advertising and controlling product registration processes, easily and interactively for the user, solving the lack of visibility for micro-entrepreneurs in remote communities</p>
-                  <p>Tools used:
-                    <img class ="petit-logos" src="images/logos/visualstudio.png" alt="visualstudio">                   
-                    <img class ="petit-logos" src="images/logos/android.png" alt="android studio">
-                    <img class ="petit-logos" src="images/logos/firebaseblack.png" alt="firebase">
-                    <img class ="petit-logos" src="images/logos/github.png" alt="github">
-                    <img class ="petit-logos" src="images/logos/scrum.png" alt="scrum">
-                  </p>
-                  
-                  <details>
-                    <summary>Features: </summary>
-                    <ul>
-                      <li>Created with Flutter and Firestore NoSQL Database</li>
-                      <li>GetX as the default flow control state</li>
-                      <li>Gitlab Repository</li>
-                      <li>Software Development Methodology: Scrum</li>
-                      <li>Canvan board Implementation</li>
-                      <li>Use cases: Diagram and Documentation</li>
-                      <li>Firebase Authentication </li>
-                      <li>Official repository of the written document: <a rel="nofollow" href="http://repositorio.puce.edu.ec/handle/22000/21148" target="_parent">Aplicativo móvil para promocionar productos artesanales caso de estudio “Tejiendo Mi Faja, Bordando Mi Blusa” de fundación Fe y Alegría (puce.edu.ec)</a></li>
-                    </ul>
-                  </details>
-  
-              </div>              
-              <div class="col-lg-5 mx-auto col-md-6 col-12">
-                  <img src="images/proyects/fealegria1.jpg" class="about-image img-fluid proyect-image" alt="Fe y Alegria Screen Capture App">
-              </div>
-
-              <div class = "row">                
-                <div class="col-lg-6 col-md-6 col-12">
-                  <h3 class="mb-4">Help Med</h3>
-
-                  <p> Develop a prototype of an android application mobile app respecting the principles of UX and the methodology of prototypes. The app handles all data users regarding health, medical condition, and others. The goal was to make a medical record to help patients to auto - register their data.</p>
-                  <p>Tools used:
-                    <img class ="petit-logos" src="images/logos/visualstudio.png" alt="visualstudio">                   
-                    <img class ="petit-logos" src="images/logos/android.png" alt="android studio">
-                    <img class ="petit-logos" src="images/logos/firebaseblack.png" alt="firebase">
-                    <img class ="petit-logos" src="images/logos/github.png" alt="github">
-                  </p>
-                  
-                  <details>
-                    <summary>Features: </summary>
-                    <ul>
-                      <li>Sign Up and Log In Screens</li>
-                      <li>Firebase Firestore NoSQL Database as backend</li>
-                      <li>Flutter development with no flow control state</li>
-                      <li>User Data register, with multiple profiles with each user</li>
-                      <li>Complete CRUD with Medicaments and Profiles</li>
-                      <li>GitHub link repository: <a rel="nofollow" href="https://github.com/RIcki-cpu/help-med-repo/blob/master/README.md" target="_parent">Here!</a></li>
-                    </ul>
-                  </details>
-  
-              </div>
-  
-              <div class="col-lg-5 mx-auto col-md-6 col-12">
-                  <img src="images/proyects/helpmed1.png" class="about-image img-fluid" alt="Fe y Alegria Screen Capture App">
-              </div>
-            </div>
-            <div class = "row">                
-              <div class="col-lg-6 col-md-6 col-12">
-                <h3 class="mb-4">My first Website</h3>
-
-                <p> This was my first website developed in HTML, CSS and JS</p>
-                <p>Tools used:
-                  <img class ="petit-logos" src="images/logos/visualstudio.png" alt="visualstudio">                   
-                  <!--img class ="petit-logos" src="images/logos/github.png" alt="neocities"-->
-                </p>
-                
-                <details>
-                  <summary>Features: </summary>
-                  <ul>
-                    <li>Games shop store</li>
-                    <li>Shopping Kart with JS </li>
-                    <li>Basic Web Design and Navigation - No template</li>
-                    <li>Basic Form to Account Creation</li>
-                    <li>Go to my website in Neocities : <a rel="nofollow" href="https://richixd2000.neocities.org/proyecto/html/landing%201.0" target="_parent">Here!</a></li>
-                  </ul>
-                </details>
-
-            </div>
-
-            <div class="col-lg-5 mx-auto col-md-6 col-12">
-                <img src="images/proyects/ecumarket1.png" class="about-image img-fluid" alt="Fe y Alegria Screen Capture App">
-            </div>
-
-          </div>
-     </section>
-
-
-     <!-- Education -->
-     <section class="faq section-padding" id="education">
-        
-        <div class="container">
-
-          <h3 class="mb-5"><strong>Education </strong><i class="em em-closed_book" aria-role="presentation" aria-label="CLOSED BOOK"></i></h3> 
-          <div class="row about-third">
-           
-            <div class="col-lg-4 col-md-4 col-12 education">          
-            <h3>Information Technology Engineering</h3>
-            <p> Pontifical Catholic University of Ecuador 2018-2022</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-12 education">
-            <h3>Technical Baccalaureate in Consumer Electronics 2012 -2018 </h3>
-            <p>Colegio Tecnico Salesiano Don Bosco</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-12 education">
-            <h3>Cisco Certified Networking Associate</h3>
-            <p>Cisco 2022</p>
-            <img width="100px" height="64px" src="images/ccnna.png" alt="ccna logo">
-            </div>
-        </div> 
-           
-        </div><!-- container -->
-    </section>
-
-
-     <section class="contact section-padding pt-0" id="contact">
-      <div class="container">
-        <h3><strong>Contact </strong><i class="em em-phone" aria-role="presentation" aria-label="BLACK TELEPHONE"></i></h3>
-        <div class ="row about-third">     
-
-        <div class="col-lg-4 col-md-4 col-12  catfigure">
-          <figure>
-            <img src="images/cat_senior.gif" width = "400px" height = "400px" class="about-image img-fluid" alt="cat backend senior">
-            <figcaption><em>Thk god ima cat</em></figcaption>
-          </figure>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
         </div>
-        <div class="col-lg-4 col-md-4 col-12 ">
-          <br><br><br><br>
-          <p>
-            <a href="#">
-                richardmontalvo074@gmail.com
-            <i class="fas fa-arrow-right custom-icon"></i>
-            </a>
-        </p>
-
-        <ul class="social-links mt-2">
-            <li><a href="https://twitter.com/Richard17876541?t=CGcYmv08WLOpG9_ZZ0MjKg&s=09" rel="noopener" class="fab fa-twitter"></a></li>
-            <li><a href="https://www.linkedin.com/in/richillmontalvo" rel="noopener" class="fab fa-linkedin"></a></li>
-            <li><a href="https://github.com/RIcki-cpu" rel="noopener" class="fab fa-github"></a></li>
-            <li><a href="https://medium.com/@richardmontalvo074" rel="noopener" class="fab fa-medium"></a></li>
-        </ul>
-
-        </div>
-      </div>
-      </div>
     </section>
-     <!-- SCRIPTS -->
-     <script src="js/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/custom.js"></script>
 
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Richard Montalvo 2023</p>
+        <div class="redes">
+            <a href="https://twitter.com/Richard17876541?t=CGcYmv08WLOpG9_ZZ0MjKg&s=09" rel="noopener" class="fab fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/richillmontalvo" rel="noopener" class="fab fa-linkedin"></a>
+            <a href="https://github.com/RIcki-cpu" rel="noopener" class="fab fa-github"></a>
+            <a href="https://medium.com/@richardmontalvo074" rel="noopener" class="fab fa-medium"></a>
+              
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
-<footer>
-  <p class="copyright-text mt-5 pt-3">Copyright &copy; 2023 Richard Montalvo</p>
-  <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
-</footer>
+
 </html>
