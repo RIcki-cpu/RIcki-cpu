@@ -2,8 +2,7 @@
 <html lang="en">
     <body>
     <h1>Hello Everyone :3 👋 and Welcome to my GitHub</h1>
-    <h2>Here you can find the code I'm working in </h2>
-    <h3>Yep looks quite empty but don't be desperate I will be uploading all my content very soon</h3>
+    <h2>Here you can find my work and passion </h2>
     <h3> Portfolio link here:<a href="https://ricki-cpu.github.io/">ricki-cpu.github.io</a></h3>
     <main>
         <p>
@@ -18,7 +17,6 @@
             - ⚡ Fun fact: ...  The people think I write all my code and hack Facebook the truth is <br>
             - I mostly copy code and try to fix buggs. I don't know how to hack Facebook. though 
         </p>
-        <p>
             ════█████████████████████████═════<br>
             ═══███████████████████████████════<br>
             ═══███████████████████████████════<br>
@@ -53,8 +51,5 @@
             ═══████═██═██═██═██═██═██═████════<br>
             ════█████████████████████████═════<br>
 
-        </p>
-
-    </main>
     
 </html>
